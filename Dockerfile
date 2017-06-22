@@ -17,5 +17,11 @@ RUN apk add --no-cache curl \
 	&& apk del --purge curl \
 	&& rm -rf /var/cache/apk/*
 
-RUN apk add --no-cache bash git openssh
+RUN apk add --no-cache \
+  build-base \
+  bash \
+  git \
+  openssh \
+  libxml2-dev \
+  libxslt-dev
 
