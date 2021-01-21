@@ -1,4 +1,4 @@
-FROM ruby:2.4.5-jessie
+FROM ruby:2.4.9-buster
 
 ENV FFMPEG_VERSION=2.8
 ENV FFMPEG_DOWNLOAD_URL https://johnvansickle.com/ffmpeg/builds/ffmpeg-git-amd64-static.tar.xz
