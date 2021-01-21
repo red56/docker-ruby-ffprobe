@@ -1,7 +1,7 @@
 FROM ruby:2.4.5-jessie
 
 ENV FFMPEG_VERSION=2.8
-ENV FFMPEG_DOWNLOAD_URL http://johnvansickle.com/ffmpeg/builds/ffmpeg-git-64bit-static.tar.xz
+ENV FFMPEG_DOWNLOAD_URL https://johnvansickle.com/ffmpeg/builds/ffmpeg-git-amd64-static.tar.xz
 RUN mkdir /input /output
 WORKDIR /input
 
